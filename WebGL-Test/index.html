@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+  <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <style>.m_outer-table{width:100%;border-spacing:0;border-collapse:collapse}.m_outer-table>tbody>tr>td{text-align:-webkit-center;vertical-align:middle;padding:0}.m_inner-table{border-spacing:0;border-collapse:collapse;border-radius:30px;overflow:hidden}.m_inner-table>tbody>tr>td{text-align:center;vertical-align:middle;padding:0}.m_inner-table>tbody>.m_r-top,.m_inner-table>tbody>.m_r-bottom{background-color:black;height:40px;border-radius:20px}.m_inner-table>tbody>tr>.m_left,.m_inner-table>tbody>tr>.m_right{background-color:black;width:20px}</style>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>HyperChat</title>
+  <script src="./polyfills.js"></script>
+</head>
+<body style="margin: 0px">
+  <div>
+    <!--                                        <canvas id="unity-canvas" style="z-index: 20; background: #231F20"></canvas>-->
+        <canvas id="unity-canvas" style="z-index: 20; width: calc(99vw); height: 99vh; background: #231F20"></canvas>
+
+        <script src="Build/WebGL.loader.js"></script>
+        <script>
+          createUnityInstance(document.querySelector("#unity-canvas"), {
+            dataUrl: "Build/WebGL.data.unityweb",
+            frameworkUrl: "Build/WebGL.framework.js.unityweb",
+            codeUrl: "Build/WebGL.wasm.unityweb",
+            streamingAssetsUrl: "StreamingAssets",
+            companyName: "DefaultCompany",
+            productName: "HyperChat",
+            productVersion: "1.0",
+          })
+          .then((instance) =>
+          {
+            unityInstance = instance;
+          })
+          .catch((message) => { console.warn(message); });
+        </script>
+  </div>
+</body>
