@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "378708710039",
+    "firebase_url": "https://slatswarm-default-rtdb.firebaseio.com",
+    "project_id": "slatswarm",
+    "storage_bucket": "slatswarm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378708710039:android:9947fd9f6a4150a2d48fd2",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.SlatTest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378708710039-fs41hcn7rvud528jifa3tfo1n9trl2ua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2foX7DnUHaQP4etRQVNp3m7AJ7OsUPSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378708710039-fs41hcn7rvud528jifa3tfo1n9trl2ua.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "378708710039-nh8pk57mmsq8ltcqpk4o9navvms1304c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.DefaultCompany.SlatTest"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
